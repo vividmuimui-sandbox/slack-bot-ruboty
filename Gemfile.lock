@@ -39,6 +39,10 @@ GEM
     ruboty-kokodeikku (0.0.8)
       ikku (>= 0.1.1)
       ruboty
+    ruboty-lgtm (0.0.3)
+      faraday
+      faraday_middleware
+      ruboty
     ruboty-slack_rtm (2.7.1)
       ruboty (>= 1.1.4)
       slack-api (~> 1.2)
@@ -68,6 +72,7 @@ DEPENDENCIES
   ruboty
   ruboty-echo
   ruboty-kokodeikku
+  ruboty-lgtm
   ruboty-slack_rtm
 
 BUNDLED WITH
