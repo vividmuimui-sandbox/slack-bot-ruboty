@@ -11,13 +11,25 @@
       "description": "Account's token. get one on https://api.slack.com/web#basics. By ruboty-slack_rtm gem"
     },
     "SLACK_IGNORE_GENERAL": {
-      "description": " if this set to 1, bot ignores all messages on #general channel (optional). By ruboty-slack_rtm gem",
+      "description": "If this set to 1, bot ignores all messages on #general channel (optional). By ruboty-slack_rtm gem",
       "value": 1,
     },
     "TZ": {
       "description": "Timezone.",
       "value": "Asia/Tokyo"
-    }
+    },
+    "BUILDPACK_URL": {
+      "description": "By Ruboty::Kokodeikku",
+      "value": "https://github.com/diasks2/heroku-buildpack-mecab.git",
+    },
+    "LD_LIBRARY_PATH": {
+      "description": "By Ruboty::Kokodeikku",
+      "value": "/app/vendor/mecab/lib",
+    },
+    "SLACK_IGNORE_GENERAL": {
+      "description": "By Ruboty::Kokodeikku",
+      "MECAB_PATH": "/app/vendor/mecab/lib/libmecab.so",
+    },
   },
   "keywords": ["chatops"],
   "name": "Ruboty"
