@@ -1,3 +1,10 @@
 source "https://rubygems.org"
 
 gem "ruboty"
+gem "ruboty-echo"
+gem "ruboty-slack_rtm"
+# gem "ruboty-github"
+# gem "ruboty-google_image"
+# gem "ruboty-kokodeikku"
+# gem "ruboty-lgtm"
+# gem "ruboty-talk"

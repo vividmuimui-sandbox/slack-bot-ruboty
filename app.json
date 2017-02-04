@@ -1,0 +1,20 @@
+{
+  "addons": [
+    "redistogo"
+  ],
+  "description": "A template to create and deploy your ruboty on slack.",
+  "env": {
+    "RUBOTY_NAME": {
+      "description": "ruboty name"
+    },
+    "SLACK_TOKEN": {
+      "description": "The token of slack bot token."
+    },
+    "TZ": {
+      "description": "Timezone.",
+      "value": "Asia/Tokyo"
+    }
+  },
+  "keywords": ["chatops"],
+  "name": "Ruboty"
+}
