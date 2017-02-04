@@ -8,7 +8,11 @@
       "description": "ruboty name"
     },
     "SLACK_TOKEN": {
-      "description": "The token of slack bot token."
+      "description": "Account's token. get one on https://api.slack.com/web#basics. By ruboty-slack_rtm gem"
+    },
+    "SLACK_IGNORE_GENERAL": {
+      "description": " if this set to 1, bot ignores all messages on #general channel (optional). By ruboty-slack_rtm gem",
+      "value": 1,
     },
     "TZ": {
       "description": "Timezone.",
