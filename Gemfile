@@ -6,6 +6,6 @@ gem "ruboty-slack_rtm"
 gem "ruboty-kokodeikku"
 gem 'mecab', '0.996'
 gem "ruboty-lgtm"
+gem "ruboty-talk"
 # gem "ruboty-github"
 # gem "ruboty-google_image"
-# gem "ruboty-talk"

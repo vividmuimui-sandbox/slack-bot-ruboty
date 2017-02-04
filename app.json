@@ -30,6 +30,9 @@
       "description": "By Ruboty::Kokodeikku",
       "MECAB_PATH": "/app/vendor/mecab/lib/libmecab.so",
     },
+    "DOCOMO_API_KEY": {
+      "description": "Pass DoCoMo API KEY",
+    },
   },
   "keywords": ["chatops"],
   "name": "Ruboty"
